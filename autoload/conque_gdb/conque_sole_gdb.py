@@ -5,7 +5,7 @@ import os
 GDB_BREAK_MARK_SOLE = 0x2192
 
 # Marks end of breakpoint output from gdb
-GDB_BREAK_END_REGEX = re.compile('^\(gdb\)\s*')
+GDB_BREAK_END_REGEX = re.compile(r'^\(gdb\)\s*')
 
 class ConqueSoleGdb(ConqueSole):
     """

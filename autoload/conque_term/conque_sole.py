@@ -59,7 +59,7 @@ class ConqueSole(Conque):
 
 
     def open(self):
-        """ Start command and initialize this instance
+        r""" Start command and initialize this instance
 
         Arguments:
         command - Command string, e.g. "Powershell.exe"

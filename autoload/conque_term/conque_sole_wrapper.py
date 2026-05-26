@@ -71,7 +71,7 @@ class ConqueSoleWrapper():
 
 
     def open(self, cmd, lines, columns, python_exe='python.exe', communicator_py='conque_sole_communicator.py', options={}):
-        """ Launch python.exe subprocess which will in turn launch the user's program.
+        r""" Launch python.exe subprocess which will in turn launch the user's program.
 
         Arguments:
         cmd -- The user's command to run. E.g. "Powershell.exe" or "C:\Python27\Scripts\ipython.bat"
